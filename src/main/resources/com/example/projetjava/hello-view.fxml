@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetjava.HelloController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #ff;">
+         <children>
+            <Pane layoutY="-1.0" prefHeight="400.0" prefWidth="299.0" style="-fx-background-color: #84a1eb;">
+               <children>
+                  <Label layoutX="14.0" layoutY="142.0" text="Employee Management System" textFill="#0d0d0d">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="327.0" layoutY="55.0" text="Welcome back Admin" textFill="#0343f2">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtemail" layoutX="330.0" layoutY="138.0" prefHeight="25.0" prefWidth="254.0" promptText="Email" />
+            <PasswordField fx:id="txtpassw" layoutX="330.0" layoutY="199.0" prefHeight="25.0" prefWidth="254.0" promptText="Password" />
+            <Button layoutX="330.0" layoutY="259.0" mnemonicParsing="false" onAction="#BtnCrud" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #0e1bd3;" text="LOGIN" textFill="#fcfcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="458.0" layoutY="259.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #fffff;" text="Forgin" textFill="#030000">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
